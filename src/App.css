@@ -573,3 +573,36 @@ body {
 .mt-2 {
   margin-top: 2rem;
 }
+
+/* Gradient text for logo */
+.gradient-text {
+  background: linear-gradient(90deg, #7f5af0 0%, #2cb67d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+/* Primary and secondary color helpers (for custom classes if needed) */
+.text-primary-500 {
+  color: #7f5af0;
+}
+.text-secondary-500 {
+  color: #2cb67d;
+}
+.bg-primary-500 {
+  background-color: #7f5af0;
+}
+.bg-secondary-500 {
+  background-color: #2cb67d;
+}
+
+/* Glassmorphism helper */
+.glass {
+  background: rgba(255,255,255,0.6);
+  box-shadow: 0 4px 32px 0 rgba(31, 38, 135, 0.12);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.18);
+}
